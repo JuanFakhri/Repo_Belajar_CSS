@@ -1,0 +1,140 @@
+nav {
+    background-color: rgb(5, 5, 5);
+    border-bottom: 1px dashed grey;
+    height: 16px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+nav ul {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    color: aliceblue;
+    padding: 0 6%;
+    text-decoration: none;
+}
+
+
+nav li:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+.jdl_pertama p:hover {
+    color: rgb(40, 33, 23);
+}
+
+.menu_utama h1 {
+
+    font-family: lucida Bright, georgia, serif;
+
+    text-align: center;
+    text-decoration: underline rgb(179, 39, 174) dashedS 20%;
+}
+
+.ucss {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: coral;
+    display: block;
+}
+
+.menu_utama p:first-of-type {
+    padding: 10px 30px 10px 20px;
+    width: 40%;
+    height: 200px;
+    display: inline-block;
+    background-color: lightblue;
+    overflow: hidden;
+    border: 1.5px solid #ffebcd;
+}
+
+.menu_utama p:last-of-type {
+    padding: 10px 30px 10px 20px;
+    width: 40%;
+    height: 200px;
+    background-color: lightpink;
+    display: inline-block;
+    overflow: hidden;
+
+    border: 1.5px solid blanchedalmond;
+}
+
+.jdl_pertama div p:first-child {
+
+    width: 240px;
+
+    height: 120px;
+    display: inline-block;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.jdl_pertama div p:last-of-type {
+
+    width: 240px;
+    height: 120px;
+    vertical-align: top;
+
+    margin-left: 90px;
+    display: inline-block;
+    background-color: lightpink;
+    overflow: hidden;
+}
+
+.jdl_pertama p:first-of-type {
+
+    width: 240px;
+    height: 140px;
+    display: inline-block;
+    background-color: lightsalmon;
+    overflow: hidden;
+}
+
+.jdl_pertama p:last-of-type {
+
+    width: 240px;
+    height: 140px;
+    margin-left: 90px;
+    display: inline-block;
+    background-color: #778899;
+    overflow: hidden;
+}
+
+section {
+    padding-top: 8px;
+}
+
+.menu_restoran li li:hover {
+    background-color: green;
+}
+
+.menu_restoran ol {
+    background-color: rgb(12, 12, 12);
+    color: linen;
+}
+
+.menu_restoran ul {
+    background-color: #9a680b;
+    color: linen;
+}
+
+.Form input[type="text"]:hover {
+
+    background-color: rgb(200, 242, 232);
+}
+
+.call-on-action {
+    background-color: lavenderblush;
+    position: sticky;
+    top: 0;
+
+}

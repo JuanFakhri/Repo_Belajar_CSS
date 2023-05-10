@@ -1,0 +1,31 @@
+.container {
+    width: 550px;
+    margin: auto;
+}
+
+.wrap {
+    border: 1px solid grey;
+    padding: 15px;
+    background-color: lightskyblue;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.wrap:nth-of-type(odd) img {
+    float: left;
+}
+
+.wrap:nth-of-type(even) img {
+    float: right;
+
+}
+
+.cf::after {
+    clear: both;
+    content: "";
+    display: table;
+}

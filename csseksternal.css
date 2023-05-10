@@ -1,0 +1,122 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: rgb(11, 11, 11);
+    color: whitesmoke;
+}
+
+#Jeruk {
+    color: rgb(252, 131, 10);
+}
+
+.lore {
+
+    text-align: center;
+
+}
+
+#Mangga {
+    color: rgb(4, 252, 49);
+}
+
+#Apel {
+    color: rgb(255, 0, 0);
+
+}
+
+#Pisang {
+    color: rgb(243, 255, 18);
+}
+
+#kuning {
+    background-color: aqua;
+}
+
+.kucing {
+    color: rgb(8, 231, 105);
+}
+
+.anjing {
+    color: aqua;
+}
+
+.ikan {
+    color: rgba(183, 223, 20, 0.958);
+}
+
+.persia {
+    background-color: rgb(215, 37, 162);
+}
+
+.Bpragraf1 {
+    background-color: rgb(65, 8, 134);
+}
+
+
+.Bpragraf2 {
+    background-color: orangered;
+}
+
+marquee h2 {
+    color: rgb(178, 32, 156);
+}
+
+hr {
+    width: 50%;
+    border-width: 13px;
+    border-style: dotted none none;
+    border-color: aquamarine;
+}
+
+.navbar {
+    background-color: rgb(44, 162, 21);
+}
+
+h1 {
+    display: block;
+
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-block-start: 0.43em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 0.2;
+
+}
+
+li {
+    font-size: 1.1rem;
+
+}
+
+ol {
+    background-color: rgb(113, 53, 30);
+}
+
+ol>li>ol {
+    background-color: black;
+}
+
+li li:hover {
+    background-color: lightgreen;
+}
+
+address {
+    font-size: 1rem;
+}
+
+p {
+    line-height: 32px;
+    word-spacing: 1px;
+}

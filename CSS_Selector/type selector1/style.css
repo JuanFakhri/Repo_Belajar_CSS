@@ -1,0 +1,12 @@
+/* Memberi Style pada Semua Element Jika kita ingin memberikan style 
+        pada semua element di website, maka kita bisa menggunakan * sebagai*/
+* {
+    background-color: rgb(114, 114, 230);
+}
+
+/* <!-- menunjuk semua element yang ada di dalam suatu element. --> */
+div * {
+    background-color: yellow;
+}
+
+/* */

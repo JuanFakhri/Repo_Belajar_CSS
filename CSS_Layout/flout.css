@@ -1,0 +1,21 @@
+.merah {
+    background-color: red;
+    width: 230px;
+    height: 600px;
+    float: right;
+
+    text-align: center;
+}
+
+.kuning {
+    background-color: yellow;
+    width: 700px;
+    height: 600px;
+    text-align: center;
+
+}
+
+.Container {
+    width: 930px;
+    margin: auto;
+}

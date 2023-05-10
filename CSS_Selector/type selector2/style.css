@@ -1,0 +1,23 @@
+/* Memberi Style pada Semua Element Jika kita ingin memberikan style 
+        pada semua element di website, maka kita bisa menggunakan * sebagai*/
+p {
+    background-color: rgb(208, 208, 250);
+    font-size: 20px;
+}
+
+/* <!-- menunjuk semua element yang ada di dalam suatu element. --> */
+
+#firstParagraph {
+    border: dotted rgb(9, 244, 9);
+}
+
+#secondParagraph {
+    border: solid rgb(242, 15, 52);
+}
+
+
+* {
+    background-color: rgb(234, 241, 194);
+}
+
+/* */

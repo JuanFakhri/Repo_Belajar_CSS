@@ -1,0 +1,128 @@
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu_utama h1 {
+    font-family: lucida Bright, georgia, serif;
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline rgb(179, 39, 174) double 10%;
+
+}
+
+.jdl_pertama p {
+    color: brown;
+}
+
+
+h2 {
+    font-family: lucida Bright, georgia, serif;
+}
+
+/* first-of-type hanya digunakan pada pragraf pertama */
+p:first-of-type {
+    background-color: lightseagreen;
+}
+
+/* last-child hanya digunakan pada pragraf terakhir */
+p:last-child {
+    background-color: rgb(29, 162, 244);
+}
+
+/* nth-of-type digunakan saat ingin memilih pragraf ke berapapun dari posisi atas*/
+p:nth-of-type(2) {
+    background-color: lightpink;
+}
+
+/* nth-of-type digunakan saat ingin memilih pragraf ke berapapun dari posisi bawah*/
+p:nth-last-child(2) {
+    background-color: rgb(185, 255, 182);
+}
+
+
+li li li:nth-child(odd) {
+    /* nth-child(even) memilih row genap dan nth-child(odd) memilih row ganjil*/
+    background-color: lightsteelblue;
+}
+
+.ucss {
+    font-weight: lighter;
+    color: coral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu_utama hr {
+    width: 50%;
+    border-width: 10px;
+    border-style: dotted none;
+    border-color: rgb(185, 220, 28);
+}
+
+p>a {
+    background-color: paleturquoise;
+}
+
+
+li li {
+    color: rgb(135, 47, 194);
+    background-color: blanchedalmond;
+}
+
+ul>li>ul {
+    background-color: white;
+}
+
+ol>li>ul {
+    background-color: antiquewhite;
+}
+
+li li li {
+    color: black;
+    background-color: white;
+}
+
+.menu_minuman {
+    color: rgb(13, 13, 243);
+}
+
+.menu_makanan {
+    color: rgb(13, 13, 243);
+}
+
+
+p:hover {
+    color: white;
+    line-height: 122%;
+}
+
+a[href*="google"] {
+    text-decoration: none;
+}
+
+a[href*="#"] {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+input[type="password"] {
+    background-color: rgb(205, 237, 255);
+}
+
+li li li:hover {
+    background-color: lightsteelblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+input:hover {
+    background-color: palegreen;
+}
+
+
+input:focus {
+    background-color: lightblue;
+}
